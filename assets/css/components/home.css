@@ -160,3 +160,43 @@
     font-size: 14px;
     color: #64748b;
 }
+
+/* ==========================
+   Popular Articles
+========================== */
+
+.popular{
+    padding:80px 0;
+    background:#f8fafc;
+}
+
+.popular-grid{
+    display:grid;
+    gap:25px;
+}
+
+.popular-card{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    background:#fff;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.popular-card:hover{
+    transform:translateY(-5px);
+}
+
+.popular-number{
+    font-size:42px;
+    font-weight:700;
+    color:#2563eb;
+    min-width:70px;
+}
+
+.popular-content h3{
+    margin:12px 0;
+}
