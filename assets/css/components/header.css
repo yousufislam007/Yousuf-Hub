@@ -41,7 +41,7 @@
 
 .signin-btn{
     background:#2563eb;
-    color:white;
+    color:white !important;
     padding:12px 22px;
     border-radius:10px;
     font-weight:600;
