@@ -1,0 +1,53 @@
+.header{
+    position: sticky;
+    top:0;
+    background:#fff;
+    border-bottom:1px solid #e5e7eb;
+    z-index:1000;
+}
+
+.navbar{
+    height:75px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#111827;
+}
+
+.logo span{
+    color:#2563eb;
+}
+
+.nav-menu{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+.nav-menu a{
+    color:#475569;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-menu a:hover{
+    color:#2563eb;
+}
+
+.signin-btn{
+    background:#2563eb;
+    color:white;
+    padding:12px 22px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.signin-btn:hover{
+    background:#1d4ed8;
+}
