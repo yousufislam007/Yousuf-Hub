@@ -344,3 +344,58 @@
 .listen-btn:hover{
     background:#1d4ed8;
 }
+
+/* ==========================
+   Newsletter
+========================== */
+
+.newsletter{
+    padding:100px 0;
+    background:#2563eb;
+}
+
+.newsletter-content{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+}
+
+.newsletter h2{
+    color:white;
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.newsletter p{
+    color:#dbeafe;
+    margin-bottom:35px;
+    font-size:18px;
+}
+
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.newsletter-form input{
+    width:450px;
+    padding:16px 20px;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+}
+
+.newsletter-form button{
+    padding:16px 30px;
+    border:none;
+    border-radius:12px;
+    background:#0f172a;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+    background:#1e293b;
+}
