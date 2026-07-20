@@ -1,85 +1,134 @@
-@media (max-width: 768px) {
-  .container {
-    padding: 0 16px;
-  }
-}
+/* ==========================================
+   Responsive Design
+========================================== */
 
 /* ==========================
-   Mobile Header
+   Mobile (≤768px)
 ========================== */
 
-.menu-toggle{
-    display:none;
-    background:none;
-    border:none;
-    font-size:30px;
-    cursor:pointer;
-}
+@media (max-width: 768px) {
 
-@media (max-width:768px){
-
-    .nav-menu{
-        display:none;
+    /* Container */
+    .container {
+        padding: 0 16px;
     }
 
-    .signin-btn{
-        display:none;
+    /* ---------- Header ---------- */
+
+.navbar {
+    height: 70px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop-signin {
+    display: none;
+}
+
+.mobile-signin {
+    display: block;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 90px 30px;
+    transition: right .3s ease;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, .15);
+}
+
+.nav-menu.active {
+    right: 0;
+}
+
+    /* ---------- Hero ---------- */
+
+    .hero {
+        padding: 70px 0;
+        text-align: center;
     }
 
-    .menu-toggle{
-        display:block;
+    .hero-content {
+        width: 100%;
     }
 
-    .navbar{
-        height:70px;
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        margin-bottom: 20px;
     }
 
-    .logo{
-        font-size:24px;
+    .hero p {
+        font-size: 16px;
+        line-height: 1.7;
+        margin: 0 auto 30px;
+        max-width: 100%;
     }
 
+    /* Search */
+
+    .search-box {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search-box input,
+    .search-box button {
+        width: 100%;
+    }
+
+    /* Hero Buttons */
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+    }
 }
 
-@media (max-width:768px){
 
-.menu-toggle{
-    display:block;
-    background:none;
-    border:none;
-    font-size:30px;
-    cursor:pointer;
-    z-index:1001;
-}
+/* ==========================
+   Tablet (769px - 1024px)
+========================== */
 
-.nav-menu{
-    position:fixed;
-    top:0;
-    right:-280px;
-    width:260px;
-    height:100vh;
-    background:#fff;
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;
-    padding:90px 30px;
-    gap:25px;
-    transition:.3s;
-    box-shadow:-5px 0 20px rgba(0,0,0,.15);
-}
+@media (min-width: 769px) and (max-width: 1024px) {
 
-.nav-menu.active{
-    right:0;
-}
-}
+    .container {
+        padding: 0 24px;
+    }
 
-.close{
-    display:none;
-}
+    .hero {
+        padding: 90px 0;
+    }
 
-.menu-toggle.active .hamburger{
-    display:none;
-}
+    .hero h1 {
+        font-size: 52px;
+    }
 
-.menu-toggle.active .close{
-    display:block;
+    .hero p {
+        font-size: 18px;
+        max-width: 700px;
+    }
+
 }
