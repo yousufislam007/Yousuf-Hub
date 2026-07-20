@@ -33,11 +33,12 @@
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(0,0,0,.08);
-    transition: .3s;
+    transition: all .3s ease;
 }
 
 .featured-card:hover {
     transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
 }
 
 .featured-card img {
@@ -58,7 +59,8 @@
 }
 
 .featured-card h3 {
-    margin: 0 20px;
+    margin: 0 20px 12px;
+    line-height: 1.4;
 }
 
 .featured-card p {
@@ -72,12 +74,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border-top: 1px solid #e5e7eb;
+    margin:auto;
 }
 
 .card-footer a {
     color: #2563eb;
     text-decoration: none;
     font-weight: 600;
+    transition:.3s;
+}
+
+.card-footer a:hover {
+    color: #1d4ed8;
 }
 
 /* ==========================
