@@ -281,11 +281,12 @@
     border-radius:16px;
     overflow:hidden;
     box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:.3s;
+    transition:all .3s ease;
 }
 
 .video-card:hover{
     transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
 .video-thumbnail{
@@ -328,11 +329,12 @@
     padding:30px;
     text-align:center;
     box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:.3s;
+    transition:all .3s ease;
 }
 
 .audio-card:hover{
     transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
 .audio-icon{

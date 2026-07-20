@@ -126,7 +126,37 @@
 .categories-grid {
     grid-template-columns: 1fr;
 }
+
+/*latest videos*/
+
+.video-grid {
+    grid-template-columns: 1fr;
 }
+
+.video-thumbnail {
+    height: 200px;
+}
+
+.video-card h3 {
+    font-size: 22px;
+}
+
+/*latest audios*/
+
+.audio-grid {
+    grid-template-columns: 1fr;
+}
+
+.audio-thumbnail {
+    height: 200px;
+}
+
+.audio-card h3 {
+    font-size: 22px;
+}
+
+}
+
 /* ==========================
    Tablet (769px - 1024px)
 ========================== */
@@ -181,4 +211,17 @@
 .categories-grid {
     grid-template-columns: repeat(2, 1fr);
 }
+
+/*latest videos*/
+
+.video-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*latest audios*/
+
+.audio-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 }
