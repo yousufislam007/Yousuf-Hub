@@ -56,55 +56,53 @@
 .nav-menu.active {
     right: 0;
 }
+}
 
-    /* ---------- Hero ---------- */
+ /* ---------- Hero ---------- */
 
-    .hero {
-        padding: 70px 0;
-        text-align: center;
-    }
+.hero {
+    padding: 60px 0;
+    text-align: center;
+}
 
-    .hero-content {
-        width: 100%;
-    }
+.hero h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
 
-    .hero h1 {
-        font-size: 40px;
-        line-height: 1.2;
-        margin-bottom: 20px;
-    }
+.hero p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 auto 30px;
+    max-width: 100%;
+}
 
-    .hero p {
-        font-size: 16px;
-        line-height: 1.7;
-        margin: 0 auto 30px;
-        max-width: 100%;
-    }
+/* Search Box */
 
-    /* Search */
+.search-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
 
-    .search-box {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
+.search-box input,
+.search-box button {
+    width: 100%;
+}
 
-    .search-box input,
-    .search-box button {
-        width: 100%;
-    }
+/* Popular Tags */
 
-    /* Hero Buttons */
+.popular-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
 
-    .hero-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .hero-buttons a {
-        width: 100%;
-    }
+.popular-tags span {
+    padding: 8px 16px;
 }
 
 
@@ -118,17 +116,30 @@
         padding: 0 24px;
     }
 
+    /* Hero */
+
     .hero {
-        padding: 90px 0;
+        padding: 80px 0;
     }
 
     .hero h1 {
         font-size: 52px;
+        line-height: 1.2;
     }
 
     .hero p {
         font-size: 18px;
         max-width: 700px;
+        margin: 0 auto 30px;
     }
 
+    .search-box {
+        max-width: 650px;
+        margin: 0 auto 30px;
+    }
+
+    .popular-tags {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
