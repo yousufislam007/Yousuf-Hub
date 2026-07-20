@@ -109,8 +109,18 @@
 .featured-grid {
     grid-template-columns: 1fr;
 }
-}
 
+/*latest articles*/
+
+.section-header{
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.latest-grid {
+    grid-template-columns: 1fr;
+}
+}
 /* ==========================
    Tablet (769px - 1024px)
 ========================== */
@@ -152,5 +162,12 @@
 
 .featured-grid {
     grid-template-columns: repeat(2, 1fr);
+}
+
+/*latest articles*/
+
+.latest-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 }

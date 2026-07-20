@@ -114,6 +114,11 @@
     color: #2563eb;
     font-weight: 600;
     text-decoration: none;
+    transition: .3s;
+}
+
+.view-all:hover {
+    color: #1d4ed8;
 }
 
 .latest-grid {
@@ -132,6 +137,7 @@
 
 .article-card:hover {
     transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .12);
 }
 
 .article-card img {
@@ -165,6 +171,8 @@
 .article-meta {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
     padding: 20px;
     font-size: 14px;
     color: #64748b;
