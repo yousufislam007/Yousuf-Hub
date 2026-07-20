@@ -176,8 +176,37 @@
     margin-top: 40px;
 }
 
+/*Articles Page*/
+
+.article-search {
+    flex-direction: row;
+    width: 100%;
+    border-radius: 14px;
 }
 
+.article-search input {
+    width: 100%;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.article-search button {
+    width: 100%;
+}
+
+.article-search button {
+    width: 30%;
+}
+
+.articles-grid {
+    grid-template-columns: 1fr;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+}
 /* ==========================
    Tablet (769px - 1024px)
 ========================== */
@@ -251,5 +280,15 @@
     grid-template-columns: repeat(2, minmax(220px, 320px));
     justify-content: center;
     gap: 50px 60px;
+}
+
+/*Articles Page*/
+
+.page-hero h1 {
+    font-size: 46px;
+}
+
+.articles-grid {
+    grid-template-columns: repeat(2, 1fr);
 }
 }
