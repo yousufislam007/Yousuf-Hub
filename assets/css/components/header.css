@@ -87,3 +87,8 @@
 .mobile-signin{
     display:none;
 }
+
+.nav-menu a.active{
+    color:#2563eb;
+    font-weight:600;
+}
